@@ -377,6 +377,7 @@ nav .wrapper {
   padding: 1.3rem 1.6rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .product:hover .addCart {
@@ -401,6 +402,7 @@ nav .wrapper {
   flex-direction: column;
   padding: 1rem;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .product .side-icons span {
