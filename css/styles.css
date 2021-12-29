@@ -1021,7 +1021,7 @@ th:last-child {
 }
 
 .leftmenu:hover .block-content {
-  top: 2.5rem;
+  top: 2.6rem;
   opacity: 1;
   visibility: visible;
   background-color: var(--white);
