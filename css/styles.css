@@ -978,7 +978,7 @@ th:last-child {
 
 .col-1-of-4 h3 {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: var(--font-semi-bold);
   margin-bottom: 1rem;
   cursor: pointer;
 }
