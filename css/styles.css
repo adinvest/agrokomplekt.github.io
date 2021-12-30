@@ -1003,19 +1003,15 @@ th:last-child {
   display: none;
   opacity: 0;
   visibility: hidden;
-  min-width: 22rem;
+  min-width: 22.5rem;
   position: absolute;
   z-index: 1;
   transition: all 0.3s ease;
 }
 
 .block-content li {
+  color: var(--white);
   margin-bottom: 1.5rem;
-}
-
-.block-content li label {
-  color: var(--grey2);
-  margin-left: 1rem;
 }
 
 .block-content li input {
@@ -1026,8 +1022,9 @@ th:last-child {
   top: 2.5rem;
   opacity: 1;
   visibility: visible;
-  background-color: var(--white);
-  padding: 0.5rem 0.75rem 0 0.75rem;
+  background-color: rgba(24, 39, 51, 0.97);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0 1rem;
   box-shadow: 0 0.0125rem 0.0625rem rgba(0, 0, 0, 0.031),
     0 0.03125rem 0.125rem rgba(0, 0, 0, 0.044),
     0 0.0625rem 0.25rem rgba(0, 0, 0, 0.056),
@@ -1042,10 +1039,6 @@ th:last-child {
 .active {
   background-color: inherit;
   color: inherit;
-}
-
-.leftmenu .fas {
-  margin-left: 0.5rem;
 }
 
 .pagination {
