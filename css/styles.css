@@ -1023,7 +1023,7 @@ th:last-child {
 }
 
 .leftmenu:hover .block-content {
-  top: 2.6rem;
+  top: 2.5rem;
   opacity: 1;
   visibility: visible;
   background-color: var(--white);
@@ -1086,7 +1086,7 @@ th:last-child {
   bottom: 3.75rem;
   right: 6%;
   z-index: 99;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   border: 0.0625rem solid var(--primary);
   outline: none;
   background-color: transparent;
