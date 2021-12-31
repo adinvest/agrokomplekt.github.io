@@ -16,7 +16,7 @@ closeNav.addEventListener("click", () => {
   }
 });
 
-// Fixed nav
+// Fixed Nav
 const navBar = document.querySelector(".nav");
 const navHeight = navBar.getBoundingClientRect().height;
 window.addEventListener("scroll", () => {
@@ -29,17 +29,17 @@ window.addEventListener("scroll", () => {
 });
 
 //Dropdown side menu
-var dropdown = document.getElementsByClassName("dropdown");
+var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function() {
   this.classList.toggle("active");
   var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
+  if (dropdownContent.style.display === "grid") {
   dropdownContent.style.display = "none";
   } else {
-  dropdownContent.style.display = "block";
+  dropdownContent.style.display = "grid";
   }
   });
 }
