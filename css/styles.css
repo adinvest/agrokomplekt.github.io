@@ -1016,7 +1016,6 @@ th:last-child {
   background-color: rgba(24, 39, 51, 0.97);
   border-radius: 0.25rem;
   transition: all 0.3s ease;
-  margin-bottom: 1rem;
   padding: 0.75rem 1rem 0.5rem 1rem;
   box-shadow: 0 0.0125rem 0.0625rem rgba(0, 0, 0, 0.031),
     0 0.03125rem 0.125rem rgba(0, 0, 0, 0.044),
