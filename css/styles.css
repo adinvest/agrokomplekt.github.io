@@ -1000,6 +1000,7 @@ th:last-child {
   outline: none;
   text-decoration: none;
   display: block;
+  margin-bottom: 1.5rem;
   text-align: left;
   color: var(--grey1);
 }
