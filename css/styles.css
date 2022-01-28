@@ -84,7 +84,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: var(--black);
+  background-color: rgba(34, 34, 34, 0.97);
   height: 7.5rem;
   line-height: 6.5rem;
 }
