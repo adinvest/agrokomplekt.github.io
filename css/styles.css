@@ -652,7 +652,7 @@ table {
 }
 
 .cart-info span {
-  color: var(--grey2);
+  color: var(--black);
 }
 
 th {
@@ -674,7 +674,7 @@ td input {
 }
 
 td a {
-  color: var(--primary);
+  color: var(--grey2);
   font-size: 1.4rem;
 }
 
