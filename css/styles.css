@@ -1020,7 +1020,7 @@ th:last-child {
   overflow: hidden;
   transition: display 0.5s ease-in;
   font-size: 1.5rem;
-  font-family: Verdana, sans-serif;
+  font-family: "Segoe UI", sans-serif;
   padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
