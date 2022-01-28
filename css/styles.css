@@ -785,7 +785,7 @@ th:last-child {
 .product-detail .right .price {
   font-size: 600;
   font-size: 1.8rem;
-  color: var(--primary);
+  color: var(--black);
   margin-bottom: 2rem;
 }
 
